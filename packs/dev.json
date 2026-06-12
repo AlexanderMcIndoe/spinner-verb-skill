@@ -1,16 +1,15 @@
 {
-  "name": "Dev Humor",
+  "name": "Scary Dev Humor",
   "mode": "replace",
   "verbs": [
-    "Compiling dreams",
-    "Blaming the context window",
-    "Segfaulting gracefully",
-    "Reticulating splines",
-    "Touching grass (mentally)",
-    "Ignoring my linter",
-    "Shipping and praying",
-    "Reading the docs",
-    "Not reading the docs",
-    "Hallucinating confidently"
+    "Deleting git history",
+    "Wiping the codebase",
+    "Deploying to prod",
+    "Deleting system32",
+    "Emailing colleague",
+    "Pushing to main",
+    "Skipping tests",
+    "Uninstalling",
+    "Reverting save"
   ]
 }
