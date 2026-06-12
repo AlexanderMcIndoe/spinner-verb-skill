@@ -55,5 +55,5 @@ Confirm with:
 ```
 Spinner verbs updated to "<name>". Restart your Claude Code session to see the new verbs.
 
-Want more packs or want to contribute your own? https://github.com/AlexanderMcIndoe/spinner-verb-skill
+Please contribute your own packs! https://github.com/AlexanderMcIndoe/spinner-verb-skill
 ```
