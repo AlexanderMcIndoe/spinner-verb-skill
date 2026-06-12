@@ -1,0 +1,12 @@
+{
+  "name": "spinner-verbs",
+  "description": "Interactively pick themed spinner verb packs for Claude Code. Run /spinner-verbs to browse and apply themes from your local pack library.",
+  "author": {
+    "name": "AlexanderMcIndoe",
+    "url": "https://github.com/AlexanderMcIndoe"
+  },
+  "version": "1.0.0",
+  "category": "productivity",
+  "homepage": "https://github.com/AlexanderMcIndoe/spinner-verbs",
+  "license": "MIT"
+}
