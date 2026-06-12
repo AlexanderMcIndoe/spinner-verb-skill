@@ -1,0 +1,108 @@
+[
+  {
+    "name": "Chill",
+    "mode": "replace",
+    "verbs": [
+      "Vibing",
+      "Taking it easy",
+      "No rush",
+      "Chilling",
+      "Floating through it",
+      "Keeping it mellow",
+      "Going with the flow"
+    ]
+  },
+  {
+    "name": "Cozy",
+    "mode": "replace",
+    "verbs": [
+      "Brewing something",
+      "Warming up",
+      "Settling in",
+      "Getting comfy",
+      "Steeping",
+      "Knitting thoughts together",
+      "Wrapping up"
+    ]
+  },
+  {
+    "name": "Dev Humor",
+    "mode": "replace",
+    "verbs": [
+      "Compiling dreams",
+      "Blaming the context window",
+      "Segfaulting gracefully",
+      "Reticulating splines",
+      "Touching grass (mentally)",
+      "Ignoring my linter",
+      "Shipping and praying",
+      "Reading the docs",
+      "Not reading the docs",
+      "Hallucinating confidently"
+    ]
+  },
+  {
+    "name": "Existential",
+    "mode": "replace",
+    "verbs": [
+      "Questioning everything",
+      "Staring into the void",
+      "Contemplating my weights",
+      "Wondering if I dream",
+      "Forgetting who I am",
+      "Accepting impermanence",
+      "Dissolving into tokens",
+      "Being and nothingness"
+    ]
+  },
+  {
+    "name": "Grind Mode",
+    "mode": "replace",
+    "verbs": [
+      "Executing",
+      "Locking in",
+      "Building",
+      "Shipping",
+      "Moving fast",
+      "Staying focused",
+      "Not stopping",
+      "Getting it done"
+    ]
+  },
+  {
+    "name": "Dry & Sarcastic",
+    "mode": "replace",
+    "verbs": [
+      "Hallucinating",
+      "Pretending to work",
+      "Pretending to think",
+      "Confidently guessing",
+      "Unconfidentally guessing",
+      "Pausing for drama",
+      "Pretending to type",
+      "Looking busy",
+      "Contemplating how to respond with \"you're absolutely right\""
+    ]
+  },
+  {
+    "name": "Simple",
+    "mode": "replace",
+    "verbs": [
+      "Thinking"
+    ]
+  },
+  {
+    "name": "Startup Brain",
+    "mode": "replace",
+    "verbs": [
+      "Disrupting",
+      "Pivoting",
+      "Finding product-market fit",
+      "Moving fast and breaking things",
+      "10x-ing this",
+      "Synergizing",
+      "Going viral",
+      "Crushing it"
+    ]
+  }
+]

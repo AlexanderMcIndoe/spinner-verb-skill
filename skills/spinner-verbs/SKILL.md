@@ -11,10 +11,15 @@ Interactively pick a verb theme and apply it to `~/.claude/settings.json`.
 
 ### 1. Load packs
 
-Read all `.json` files from `~/.claude/plugins/spinner-verbs/`. Parse the `name` and `verbs` array from each.
+Read the single index file:
+```
+~/.claude/plugins/spinner-verbs/packs/index.json
+```
 
-If the directory is empty or missing, tell the user:
-> "No packs found at `~/.claude/plugins/spinner-verbs/`."
+This is a JSON array of pack objects, each with `name`, `mode`, and `verbs`.
+
+If the file is missing, tell the user:
+> "No packs found. Run `/plugin update` to get the latest packs."
 Then stop.
 
 ### 2. Present the list interactively (paginated)
@@ -35,7 +40,7 @@ If the user picks "Keep current", say "No changes made." and stop.
 ### 3. Apply the selected theme
 
 1. Read `~/.claude/settings.json`
-2. Set `settings.spinnerVerbs` to `{ "mode": <mode from file>, "verbs": <verbs from file> }` — strip the `name` field
+2. Set `settings.spinnerVerbs` to `{ "mode": <mode from pack>, "verbs": <verbs from pack> }`
 3. Write the updated settings back
 
 Confirm with: `Spinner verbs updated to "<name>". Restart your Claude Code session to see the new verbs.`
