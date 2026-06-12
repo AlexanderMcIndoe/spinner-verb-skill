@@ -51,4 +51,9 @@ When the user selects "Other" and types their answer, match it against the list 
 2. Set `settings.spinnerVerbs` to `{ "mode": <mode from pack>, "verbs": <verbs from pack> }`
 3. Write the updated settings back
 
-Confirm with: `Spinner verbs updated to "<name>". Restart your Claude Code session to see the new verbs.`
+Confirm with:
+```
+Spinner verbs updated to "<name>". Restart your Claude Code session to see the new verbs.
+
+Want more packs or want to contribute your own? https://github.com/AlexanderMcIndoe/spinner-verb-skill
+```
