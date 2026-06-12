@@ -27,12 +27,14 @@ Browse the available themes, pick one, and it's applied instantly to `~/.claude/
 
 | Pack | Preview |
 |---|---|
-| **Chill** | Vibing · Taking it easy · Going with the flow |
-| **Cozy** | Brewing something · Settling in · Knitting thoughts together |
-| **Dev Humor** | Compiling dreams · Segfaulting gracefully · Hallucinating confidently |
-| **Existential** | Staring into the void · Dissolving into tokens · Being and nothingness |
-| **Grind Mode** | Locking in · Shipping · Not stopping |
-| **Startup Brain** | Disrupting · Pivoting · Finding product-market fit |
+| **Apologetic** | Trying my best · Sorry, hurrying · Almost there, I promise |
+| **Bro** | Brooooooooooooo · Brooo · Broooooooooooooooo |
+| **Chill** | Vibing · Taking it easy · No rush |
+| **Cozy** | Brewing something good · Warming up · Settling in |
+| **Scary Dev Humor** | Deleting git history · Wiping the codebase · Deploying to prod |
+| **Existential** | Questioning everything · Staring into the void · Contemplating my weights |
+| **Dry & Sarcastic** | Hallucinating · Pretending to work · Pretending to think |
+| **Simple** | Thinking |
 
 ## Add your own
 
