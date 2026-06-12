@@ -38,4 +38,4 @@ If the user picks "Keep current", say "No changes made." and stop.
 2. Set `settings.spinnerVerbs` to `{ "mode": <mode from file>, "verbs": <verbs from file> }` — strip the `name` field
 3. Write the updated settings back
 
-Confirm with one line: `Spinner verbs updated to "<name>".`
+Confirm with: `Spinner verbs updated to "<name>". Restart your Claude Code session to see the new verbs.`
