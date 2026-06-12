@@ -22,22 +22,30 @@ If the file is missing, tell the user:
 > "No packs found. Run `/plugin update` to get the latest packs."
 Then stop.
 
-### 2. Present the list interactively (paginated)
+### 2. Print the full list
 
-`AskUserQuestion` has a hard limit of 4 options. Show packs 3 at a time with a "More themes →" option to advance pages, and a "Keep current" option on the last page.
+Output the numbered list as plain text so the user can see all options at once:
 
-- Pages except the last: 3 pack options + "More themes →"
-- Last page: remaining packs + "Keep current"
+```
+Available themes:
 
-Each pack option:
-- **label**: the theme `name`
-- **description**: all verbs joined with ` · `
-- **preview**: verbs listed one per line
+1. Chill — Vibing · Taking it easy · No rush
+2. Cozy — Brewing something · Warming up · Settling in
+3. Dev Humor — Compiling dreams · Blaming the context window · Segfaulting gracefully
+...etc
+```
 
-If the user picks "More themes →", show the next page.
-If the user picks "Keep current", say "No changes made." and stop.
+Show the pack name and first 3 verbs as a preview for each entry.
 
-### 3. Apply the selected theme
+### 3. Ask for a selection
+
+Use `AskUserQuestion` with these options:
+- **Keep current** — no change
+- **Other** (free text) — user types a number or pack name
+
+When the user selects "Other" and types their answer, match it against the list by number (1-based) or by case-insensitive name. If no match, say "No match found." and stop.
+
+### 4. Apply the selected theme
 
 1. Read `~/.claude/settings.json`
 2. Set `settings.spinnerVerbs` to `{ "mode": <mode from pack>, "verbs": <verbs from pack> }`
