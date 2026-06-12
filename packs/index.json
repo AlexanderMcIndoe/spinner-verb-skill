@@ -7,12 +7,14 @@
       "Sorry, hurrying",
       "Almost there, I promise",
       "Working on it, sorry",
-      "Please bear with me",
+      "Please",
       "Doing my best here",
       "Sorry for the wait",
       "I know, I know",
       "Nearly done, apologies",
-      "So sorry about this"
+      "So sorry",
+      "Trying, please don't end the session",
+      "I'm doing my best"
     ]
   },
   {
@@ -46,29 +48,28 @@
     "name": "Cozy",
     "mode": "replace",
     "verbs": [
-      "Brewing something",
+      "Brewing something good",
       "Warming up",
       "Settling in",
       "Getting comfy",
-      "Steeping",
-      "Knitting thoughts together",
-      "Wrapping up"
+      "Comfortably typing",
+      "Meditating",
+      "Gathering my thoughts"
     ]
   },
   {
-    "name": "Dev Humor",
+    "name": "Scary Dev Humor",
     "mode": "replace",
     "verbs": [
-      "Compiling dreams",
-      "Blaming the context window",
-      "Segfaulting gracefully",
-      "Reticulating splines",
-      "Touching grass (mentally)",
-      "Ignoring my linter",
-      "Shipping and praying",
-      "Reading the docs",
-      "Not reading the docs",
-      "Hallucinating confidently"
+      "Deleting git history",
+      "Wiping the codebase",
+      "Deploying to prod",
+      "Deleting system32",
+      "Emailing colleague",
+      "Pushing to main",
+      "Skipping tests",
+      "Uninstalling",
+      "Reverting save"
     ]
   },
   {
@@ -83,20 +84,6 @@
       "Accepting impermanence",
       "Dissolving into tokens",
       "Being and nothingness"
-    ]
-  },
-  {
-    "name": "Grind Mode",
-    "mode": "replace",
-    "verbs": [
-      "Executing",
-      "Locking in",
-      "Building",
-      "Shipping",
-      "Moving fast",
-      "Staying focused",
-      "Not stopping",
-      "Getting it done"
     ]
   },
   {
@@ -119,20 +106,6 @@
     "mode": "replace",
     "verbs": [
       "Thinking"
-    ]
-  },
-  {
-    "name": "Startup Brain",
-    "mode": "replace",
-    "verbs": [
-      "Disrupting",
-      "Pivoting",
-      "Finding product-market fit",
-      "Moving fast and breaking things",
-      "10x-ing this",
-      "Synergizing",
-      "Going viral",
-      "Crushing it"
     ]
   }
 ]
